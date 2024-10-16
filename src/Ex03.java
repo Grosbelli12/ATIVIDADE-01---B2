@@ -14,7 +14,6 @@ public static int obterQuantidadeProdutos(Scanner sc) {
     int quantidadeProdutos = sc.nextInt();
     return quantidadeProdutos;
 }
-
 public static double[] obterPrecosProduto(Scanner sc, int quantidadeProdutos) {
     double[] precos = new double[quantidadeProdutos];
     for (int i = 0; i < quantidadeProdutos; i++) {
